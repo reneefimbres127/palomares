@@ -1,0 +1,101 @@
+body { 
+	background-image: url('../viajes/img/somoss.png');
+    background-size: cover; 
+    background-position: center;
+   background-repeat: no-repeat;
+   width: 50%;
+   height: 100vh;
+	}
+h1{
+    font-family: Verdana;
+    font-weight: 800%;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    transform: translateX(350px);
+   top: -50%;
+    font-size: 210%;
+    color: #1A2A49;
+    }
+h2{
+    font-family: Verdana;
+    font-weight: 100%;
+    text-align: center;
+    text-align: justify;
+    font-size: 130%;
+    color: #1A2A49;
+    transform: translateX(20px);
+    }
+
+.b1 {
+    align-items: center;
+    appearance: none;
+    background-color: #fff; 
+    border-radius: 24px; 
+    border: none; 
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0; /* Sombra */
+    box-sizing: border-box;
+    color: #3c4043; 
+    cursor: pointer; 
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: 14px; 
+    font-weight: 500;
+    height: 48px; 
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px; 
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    will-change: transform, opacity;
+    z-index: 0;
+    text-decoration: none; 
+    outline: none; 
+    color: inherit; 
+}
+
+.b1:hover {
+    background: #F6F9FE;
+    color: #174ea6; 
+}
+
+.b1:active {
+    box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%); /* Cambia la sombra al hacer clic */
+}
+
+.b1:focus {
+    outline: 2px solid #4285f4; 
+}
+
+.b1:disabled {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+    color: #a6a6a6; 
+    cursor: not-allowed; 
+}
+footer {
+    background-color: #1C273C; 
+    color: #fff; 
+    padding: 5px 10px; 
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+    transform: translateX(-30px);
+}
+.p{
+    font-family: Verdana;
+    font-size: 100%;
+}
+.p2{
+    font-family: Verdana;
+    font-size: 100%;
+}       
